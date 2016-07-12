@@ -1,0 +1,11 @@
+.Photo-Gallery--row2 {
+	background: url(../images/Runners-drinking.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 320px;
+}
+
+@media (min-width: 768px){
+	h1 {font-size: 4em;}
+}
