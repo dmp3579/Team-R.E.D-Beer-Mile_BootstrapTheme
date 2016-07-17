@@ -6,6 +6,16 @@
 	min-height: 320px;
 }
 
+.float-left{
+	float: left;
+	padding-right: 10px;
+}
+
+.footer{
+	border-top: solid black 1px;
+	padding-top: 10px;
+}
+
 @media (min-width: 768px){
 	h1 {font-size: 4em;}
 }
