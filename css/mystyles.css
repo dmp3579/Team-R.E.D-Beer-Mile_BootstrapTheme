@@ -1,9 +1,71 @@
+body,html {
+	background-image:
+    linear-gradient(to bottom, red, orange, yellow 120%);}
+
 .Photo-Gallery--row2 {
 	background: url(../images/Runners-drinking.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	min-height: 320px;
+}
+
+h1 {
+	color:#ffffff;
+}
+
+h2,h3,p,li,label {
+	color:#000000;
+}
+
+.form-control{
+	background-color: transparent;
+	border: 1px solid #000000;
+}
+
+.btn-register {
+  color: #fff;
+  background-color: #000000;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.btn-register:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.btn-register:active {
+  color: #ffffff;
+  background-color: #000000;
+  border-left: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+}
+
+.btn-register:focus {
+  color: #ffffff;
+  background-color: #000000;
+  border-left: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+}
+
+.well{
+	background-color: transparent;
+	min-height: 180px;
+}
+
+.panel{
+	background-color: transparent;
+}
+
+.panel-title{
+	color:#ffffff;
+}
+
+.panel-default > .panel-heading{
+	background-color:#000000;
 }
 
 .float-left{
@@ -17,5 +79,5 @@
 }
 
 @media (min-width: 768px){
-	h1 {font-size: 4em;}
+	h1 {font-size: 4.5em;}
 }
