@@ -12,6 +12,7 @@ body,html {
 
 h1 {
 	color:#ffffff;
+	text-shadow:2px 1px 1px #000000;
 }
 
 h2,h3,p,li,label {
