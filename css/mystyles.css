@@ -2,6 +2,15 @@ body,html {
 	background-image:
     linear-gradient(to bottom, red, orange, yellow 120%);}
 
+.firstcharacter {
+	float: left; 
+	color: #000000; 
+	font-size: 50px; 
+	line-height: 40px;
+	padding-top: 0px;  
+	padding-right:8px;   
+}
+
 .Photo-Gallery--row2 {
 	background: url(../images/Runners-drinking.jpg);
 	background-repeat: no-repeat;
