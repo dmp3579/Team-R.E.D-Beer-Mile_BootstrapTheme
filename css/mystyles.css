@@ -17,6 +17,8 @@ body,html {
 	background-position: center;
 	background-size: cover;
 	min-height: 320px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 h1 {
