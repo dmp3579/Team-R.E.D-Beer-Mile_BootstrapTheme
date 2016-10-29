@@ -11,6 +11,22 @@ body,html {
 	padding-right:8px;   
 }
 
+/* 
+.is-table-row {
+        display: table;
+        max-width: auto;
+    }
+
+ .is-table-row-cell {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+        padding-left: 0px; 
+        padding-right: 0px; 
+        max-height: 400px;
+    }
+    */
+
 .Photo-Gallery--row2 {
 	background: url(../images/Runners-drinking.jpg);
 	background-repeat: no-repeat;
@@ -92,4 +108,38 @@ h2,h3,p,li,label {
 
 @media (min-width: 768px){
 	h1 {font-size: 4.5em;}
+}
+
+@media (min-width: 385px){
+	.photo1{
+		height: 325px;
+	}
+}
+
+@media (min-width: 551px){
+	.photo2{
+		width: 487.5px;
+	}
+}
+
+@media (min-width: 785px){
+	.photo1-container{
+		padding-right:0px;
+	}
+	.photo1{
+		height:343.375px;
+	}
+	.photo2-container{
+		padding-left:0px;
+	}
+}
+
+@media (min-width: 970px){
+	.photo1{
+		height:540.516px;
+		width: auto;}
+	.photo2{
+		height:540.516px;
+		width: auto;
+	}
 }
